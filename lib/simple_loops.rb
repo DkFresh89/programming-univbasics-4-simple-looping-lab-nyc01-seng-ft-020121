@@ -26,7 +26,7 @@ def return_string_array(array)
   counter = 0 
   newarray = []
   while counter <= array.length do
-    newarray = array[counter].to_s 
+    newarray << array[counter].to_s 
     counter += 1 
 end 
 return newarray 
