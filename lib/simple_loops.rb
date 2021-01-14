@@ -5,3 +5,5 @@ def loop_message_five_times(message)
   counter += 1 
 end 
 end 
+
+def loop_message_n_times(message, integer)
