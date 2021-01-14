@@ -8,7 +8,8 @@ end
 
 def loop_message_n_times(message, number)
   counter = 0
-  while number <= counter
+  while number <= counter do
   puts message
   counter += 1 
+end 
 end 
